@@ -1,0 +1,14 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.dom.json",
+  "include": ["env.d.ts", "strawberry-fields-HP/src/**/*", "strawberry-fields-HP/src/**/*.vue"],
+  "exclude": ["strawberry-fields-HP/src/**/__tests__/*"],
+  "compilerOptions": {
+    "composite": true,
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["strawberry-fields-HP/src/*"]
+    }
+  }
+}
