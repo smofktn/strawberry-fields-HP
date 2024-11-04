@@ -1,5 +1,5 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div>hoge</div>
+  <div>s</div>
 </template>
